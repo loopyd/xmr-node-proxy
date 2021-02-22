@@ -7,7 +7,7 @@
       "allowSelfSignedSSL": true,
       "share": 100,
       "username": "46Z4T9pKPPv82ixGexhGZW9rmMHzPyLnU9ozhewcp8EbC2QagMtz2BKdiqTCx9wo1AiVbEt8R6w1J4ad8W6NpDzRJCxQUMG",
-      "password": "proxy:totally.valid@lupinedream.com",
+      "password": "x",
       "keepAlive": true,
       "coin": "xmr",
       "default": true
@@ -21,8 +21,8 @@
       "coin": "xmr"
     }
   ],
-  "bindAddress": "10.0.0.2",
-  "daemonAddress": "10.0.0.2:18081",
+  "bindAddress": "0.0.0.0",
+  "daemonAddress": "127.0.0.1:18081",
   "coinSettings": {
     "xmr":{
       "minDiff": 100,
