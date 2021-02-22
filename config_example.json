@@ -6,8 +6,8 @@
       "ssl": false,
       "allowSelfSignedSSL": false,
       "share": 80,
-      "username": "46XWBqE1iwsVxSDP1qDrxhE1XvsZV6eALG5LwnoMdjbT4GPdy2bZTb99kagzxp2MMjUamTYZ4WgvZdFadvMimTjvR6Gv8hL",
-      "password": "proxy:totally.valid@snipanet.com",
+      "username": "46Z4T9pKPPv82ixGexhGZW9rmMHzPyLnU9ozhewcp8EbC2QagMtz2BKdiqTCx9wo1AiVbEt8R6w1J4ad8W6NpDzRJCxQUMG",
+      "password": "proxy:totally.valid@lupinedream.com",
       "keepAlive": true,
       "coin": "xmr",
       "default": false
@@ -18,8 +18,8 @@
       "ssl": false,
       "allowSelfSignedSSL": false,
       "share": 20,
-      "username": "46XWBqE1iwsVxSDP1qDrxhE1XvsZV6eALG5LwnoMdjbT4GPdy2bZTb99kagzxp2MMjUamTYZ4WgvZdFadvMimTjvR6Gv8hL",
-      "password": "proxy:totally.valid@snipanet.com",
+      "username": "46Z4T9pKPPv82ixGexhGZW9rmMHzPyLnU9ozhewcp8EbC2QagMtz2BKdiqTCx9wo1AiVbEt8R6w1J4ad8W6NpDzRJCxQUMG",
+      "password": "proxy:totally.valid@lupinedream.com",
       "keepAlive": true,
       "coin": "xmr",
       "default": true
