@@ -2,12 +2,12 @@
   "pools": [
     {
       "hostname": "pool.supportxmr.com",
-      "port": 9000,
-      "ssl": true,
+      "port": 5555,
+      "ssl": false,
       "allowSelfSignedSSL": true,
       "share": 100,
       "username": "46Z4T9pKPPv82ixGexhGZW9rmMHzPyLnU9ozhewcp8EbC2QagMtz2BKdiqTCx9wo1AiVbEt8R6w1J4ad8W6NpDzRJCxQUMG",
-      "password": "x",
+      "password": "proxy:totally-valid@lupinedream.com",
       "keepAlive": true,
       "coin": "xmr",
       "default": true
@@ -17,7 +17,25 @@
     {
       "port": 8443,
       "ssl": true,
+      "diff": 1000,
+      "coin": "xmr"
+    },
+    {
+      "port": 3333,
+      "ssl": false,
+      "diff": 1000,
+      "coin": "xmr"
+    },
+    {
+      "port": 5555,
+      "ssl": false,
       "diff": 5000,
+      "coin": "xmr"
+    },
+    {
+      "port": 7777,
+      "ssl": false,
+      "diff": 10000,
       "coin": "xmr"
     }
   ],
@@ -25,11 +43,6 @@
   "daemonAddress": "127.0.0.1:18081",
   "coinSettings": {
     "xmr":{
-      "minDiff": 100,
-      "maxDiff": 300000,
-      "shareTargetTime": 15
-    },
-    "aeon":{
       "minDiff": 100,
       "maxDiff": 300000,
       "shareTargetTime": 15
