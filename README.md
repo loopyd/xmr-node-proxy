@@ -1,9 +1,19 @@
 # xmr-node-proxy
 
+## This is a fork
 
-## Setup Instructions
+You are browsing a fork of the original xmr-node-proxy repository.  You will not recieve any support, whatsoever for choosing to use this fork.
 
-Based on a clean Ubuntu 16.04 LTS minimal install
+__You do so at your own risk__
+
+## Fork Features
+
+1. Cleaned and tidied up installation script output (with color, and clean code!)
+2. Installer sanity checking
+3. Updated to work in modern versions of Ubuntu (20.04 LTS+)
+4. No donations, whatsover.  Complete removal of malicious node IP addresses from code.
+
+Based on a clean ("green-field") Ubuntu 20.04 LTS Server Minimal installation.
 
 ## Deployment via Installer
 
@@ -62,7 +72,6 @@ to:
 
 In your `packages.json`, do a `npm install`, and it should pass.
 
-
 ## Performance
 
 The proxy gains a massive boost over a basic pool by accepting that the majority of the hashes submitted _will_ not be valid (does not exceed the required difficulty of the pool).  Due to this, the proxy doesn't bother with attempting to validate the hash state nor value until the share difficulty exceeds the pool difficulty.
@@ -75,21 +84,11 @@ Please check the [wiki](https://github.com/Snipa22/xmr-node-proxy/wiki/config_re
 
 ## Developer Donations
 
-The proxy is pre-configured for a 1% donation. This is easily toggled inside of it's configuration. If you'd like to make a one time donation, the addresses are as follows:
-
-* XMR - 44Ldv5GQQhP7K7t3ZBdZjkPA7Kg7dhHwk3ZM3RJqxxrecENSFx27Vq14NAMAd2HBvwEPUVVvydPRLcC69JCZDHLT2X5a4gr
-* BTC - 15fkPTtN8cRXD3moKWDoXjuiTaS9FgA3UE
+This has been hacked out of the loopyd fork to make it donation-free.  The devPool option is no longer supported in this unofficial fork.
 
 ## Installation/Configuration Assistance
 
-If you need help installing the pool from scratch, please have your servers ready, which would be Ubuntu 16.04 servers, blank and clean, DNS records pointed.  These need to be x86_64 boxes with AES-NI Available.
-
-Installation asstiance is 4 XMR, with a 2 XMR deposit, with remainder to be paid on completion.  
-Configuration assistance is 2 XMR with a 1 XMR deposit, and includes debugging your proxy configurations, ensuring that everything is running, and tuning for your uses/needs.  
-
-SSH access with a sudo-enabled user will be needed for installs, preferably the user that is slated to run the pool.
-
-Please contact Snipa at: proxy_installs@snipanet.com or via IRC on irc.freenode.net in #monero-pools
+Absolutely no support is offered for this fork of XMR-Node-Proxy from Snipa22.  You will **BE REFUSED** support if you are using the loopyd fork.
 
 ## Known Working Pools
 
@@ -108,4 +107,4 @@ Please contact Snipa at: proxy_installs@snipanet.com or via IRC on irc.freenode.
 * [Chinaenter.cn](http://xmr.chinaenter.cn)
 * [XMRPool.eu](https://xmrpool.eu)
 
-If you'd like to have your pool added, please make a pull request here, or contact Snipa on IRC!
+This list has been updated from the original repository README, and may fall behind as a result of the fork.
