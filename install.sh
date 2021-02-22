@@ -62,7 +62,7 @@ done
 
 cd $HOME
 echo -n -e "\n${UGre}INFO:${RCol}${BGre}  Cloning GitHub Repository...\n\n${RCol}"
-git clone https://github.com/loopyd/xmr-node-proxy
+git clone https://github.com/loopyd/xmr-node-proxy.git
 echo -n -e "\n${UGre}INFO:${RCol}${BGre}  Downloading Node Version Manager...\n\n${RCol}"
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v${MY_NVM_VERSION}/install.sh | bash
 export NVM_DIR="$HOME/.nvm"
