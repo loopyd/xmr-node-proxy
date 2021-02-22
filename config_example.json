@@ -15,27 +15,14 @@
   ],
   "listeningPorts": [
     {
-      "port": 8080,
-      "ssl": false,
-      "diff": 5000,
-      "coin": "xmr"
-    },
-    {
       "port": 8443,
       "ssl": true,
       "diff": 5000,
       "coin": "xmr"
-    },
-    {
-      "port": 3333,
-      "ssl": false,
-      "diff": 10000,
-      "coin": "xmr"
     }
   ],
-  "bindAddress": "0.0.0.0",
-  "developerShare": 1,
-  "daemonAddress": "127.0.0.1:18081",
+  "bindAddress": "10.0.0.2",
+  "daemonAddress": "10.0.0.2:18081",
   "coinSettings": {
     "xmr":{
       "minDiff": 100,
