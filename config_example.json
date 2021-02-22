@@ -2,22 +2,10 @@
   "pools": [
     {
       "hostname": "pool.supportxmr.com",
-      "port": 7777,
-      "ssl": false,
-      "allowSelfSignedSSL": false,
-      "share": 80,
-      "username": "46Z4T9pKPPv82ixGexhGZW9rmMHzPyLnU9ozhewcp8EbC2QagMtz2BKdiqTCx9wo1AiVbEt8R6w1J4ad8W6NpDzRJCxQUMG",
-      "password": "proxy:totally.valid@lupinedream.com",
-      "keepAlive": true,
-      "coin": "xmr",
-      "default": false
-    },
-    {
-      "hostname": "mine.xmrpool.net",
-      "port": 7778,
-      "ssl": false,
-      "allowSelfSignedSSL": false,
-      "share": 20,
+      "port": 9000,
+      "ssl": true,
+      "allowSelfSignedSSL": true,
+      "share": 100,
       "username": "46Z4T9pKPPv82ixGexhGZW9rmMHzPyLnU9ozhewcp8EbC2QagMtz2BKdiqTCx9wo1AiVbEt8R6w1J4ad8W6NpDzRJCxQUMG",
       "password": "proxy:totally.valid@lupinedream.com",
       "keepAlive": true,
