@@ -25,7 +25,7 @@ fi
 MY_NODE_VERSION="6.9.2"
 MY_NVM_VERSION="0.37.2"
 
-echo -e "${UYel}ALERT:${$RCol}${Yel} This unattended xmr-node-proxy installer is about to modify your system!\nIt will reset ANY user configurations you want in:\n\n    - node.js\n    - node version manager\n    - pm2 app manager\n\n${RCol}${BCya}Press CTRL+C if you wish to exit this script within the next 15 seconds.\nWait if you don't care.\n${RCol}"
+echo -e "${UYel}ALERT:${RCol}${Yel} This unattended xmr-node-proxy installer is about to modify your system!\nIt will reset ANY user configurations you want in:\n\n    - node.js\n    - node version manager\n    - pm2 app manager\n\n${RCol}${BCya}Press CTRL+C if you wish to exit this script within the next 15 seconds.\nWait if you don't care.\n${RCol}"
 sleep 15s
 
 # Detect and remove managed directories
@@ -62,7 +62,7 @@ done
 
 cd $HOME
 echo -n -e "\n${UGre}INFO:${RCol}${BGre}  Cloning GitHub Repository...\n\n${RCol}"
-git clone https://github.com/Snipa22/xmr-node-proxy
+git clone https://github.com/loopyd/xmr-node-proxy
 echo -n -e "\n${UGre}INFO:${RCol}${BGre}  Downloading Node Version Manager...\n\n${RCol}"
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v${MY_NVM_VERSION}/install.sh | bash
 export NVM_DIR="$HOME/.nvm"
